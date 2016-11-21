@@ -1,0 +1,45 @@
+﻿Build started 2016/11/16 17:17:41.
+     1>Project "E:\200 github\eSDK_OBS_C_Windows\third_part\libiconv-1.14\windows\libiconv\libiconv.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\libiconv.lastbuildstate".
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+         Creating directory "E:\200 github\eSDK_OBS_C_Windows\third_part\libxml2-2.9.4\win32\VC10\Release\lib\".
+       InitializeBuildStatus:
+         Creating "Release\libiconv.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\libiconv\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D LIBICONV_EXPORTS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt iconv.c localcharset.c relocatable.c
+         iconv.c
+     1>E:\200 github\eSDK_OBS_C_Windows\third_part\libiconv-1.14\windows\libiconv\include\iconv.h : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+     1>e:\200 github\esdk_obs_c_windows\third_part\libiconv-1.14\windows\libiconv\include\utf7.h(162): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\200 github\esdk_obs_c_windows\third_part\libiconv-1.14\windows\libiconv\include\utf7.h(331): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\200 github\esdk_obs_c_windows\third_part\libiconv-1.14\windows\libiconv\include\hz.h(39): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\200 github\esdk_obs_c_windows\third_part\libiconv-1.14\windows\libiconv\include\hz.h(51): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\200 github\esdk_obs_c_windows\third_part\libiconv-1.14\windows\libiconv\include\hz.h(57): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\200 github\esdk_obs_c_windows\third_part\libiconv-1.14\windows\libiconv\include\hz.h(65): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\200 github\esdk_obs_c_windows\third_part\libiconv-1.14\windows\libiconv\include\hz.h(80): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\200 github\esdk_obs_c_windows\third_part\libiconv-1.14\windows\libiconv\include\loop_unicode.h(47): warning C4018: '<=' : signed/unsigned mismatch
+     1>e:\200 github\esdk_obs_c_windows\third_part\libiconv-1.14\windows\libiconv\include\loop_unicode.h(91): warning C4018: '<=' : signed/unsigned mismatch
+     1>e:\200 github\esdk_obs_c_windows\third_part\libiconv-1.14\windows\libiconv\include\loop_unicode.h(142): warning C4018: '<=' : signed/unsigned mismatch
+     1>e:\200 github\esdk_obs_c_windows\third_part\libiconv-1.14\windows\libiconv\include\loop_unicode.h(258): warning C4018: '<=' : signed/unsigned mismatch
+     1>e:\200 github\esdk_obs_c_windows\third_part\libiconv-1.14\windows\libiconv\include\loop_unicode.h(418): warning C4018: '<=' : signed/unsigned mismatch
+     1>e:\200 github\esdk_obs_c_windows\third_part\libiconv-1.14\windows\libiconv\include\loop_unicode.h(422): warning C4018: '<=' : signed/unsigned mismatch
+     1>e:\200 github\esdk_obs_c_windows\third_part\libiconv-1.14\windows\libiconv\include\loop_unicode.h(503): warning C4018: '<=' : signed/unsigned mismatch
+     1>e:\200 github\esdk_obs_c_windows\third_part\libiconv-1.14\windows\libiconv\include\loop_unicode.h(519): warning C4018: '<=' : signed/unsigned mismatch
+     1>iconv.c(427): warning C4090: 'function' : different 'const' qualifiers
+         localcharset.c
+     1>localcharset.c(468): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+         relocatable.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"E:\200 github\eSDK_OBS_C_Windows\third_part\libxml2-2.9.4\win32\VC10\Release\lib\libiconv.lib" /NOLOGO /LTCG Release\iconv.obj
+         Release\localcharset.obj
+         Release\relocatable.obj
+         libiconv.vcxproj -> E:\200 github\eSDK_OBS_C_Windows\third_part\libxml2-2.9.4\win32\VC10\Release\lib\libiconv.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\libiconv.unsuccessfulbuild".
+         Touching "Release\libiconv.lastbuildstate".
+     1>Done Building Project "E:\200 github\eSDK_OBS_C_Windows\third_part\libiconv-1.14\windows\libiconv\libiconv.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.72

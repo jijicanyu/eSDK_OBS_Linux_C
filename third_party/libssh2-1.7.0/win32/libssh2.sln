@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libssh2", "libssh2.vcxproj", "{95348993-E76F-1FDE-DBE0-58B902A1026A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tests", "tests.vcxproj", "{E388DE70-6C23-33B2-E780-5EBA21F600E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		OpenSSL DLL Debug|Win32 = OpenSSL DLL Debug|Win32
+		OpenSSL DLL Release|Win32 = OpenSSL DLL Release|Win32
+		OpenSSL LIB Debug|Win32 = OpenSSL LIB Debug|Win32
+		OpenSSL LIB Release|Win32 = OpenSSL LIB Release|Win32
+		Release|Win32 = Release|Win32
+		Template|Win32 = Template|Win32
+		WinCNG DLL Debug|Win32 = WinCNG DLL Debug|Win32
+		WinCNG DLL Release|Win32 = WinCNG DLL Release|Win32
+		WinCNG LIB Debug|Win32 = WinCNG LIB Debug|Win32
+		WinCNG LIB Release|Win32 = WinCNG LIB Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95348993-E76F-1FDE-DBE0-58B902A1026A}.Debug|Win32.ActiveCfg = WinCNG LIB Debug|Win32
+		{95348993-E76F-1FDE-DBE0-58B902A1026A}.Debug|Win32.Build.0 = WinCNG LIB Debug|Win32
+		{95348993-E76F-1FDE-DBE0-58B902A1026A}.OpenSSL DLL Debug|Win32.ActiveCfg = OpenSSL DLL Debug|Win32
+		{95348993-E76F-1FDE-DBE0-58B902A1026A}.OpenSSL DLL Debug|Win32.Build.0 = OpenSSL DLL Debug|Win32
+		{95348993-E76F-1FDE-DBE0-58B902A1026A}.OpenSSL DLL Release|Win32.ActiveCfg = OpenSSL DLL Release|Win32
+		{95348993-E76F-1FDE-DBE0-58B902A1026A}.OpenSSL DLL Release|Win32.Build.0 = OpenSSL DLL Release|Win32
+		{95348993-E76F-1FDE-DBE0-58B902A1026A}.OpenSSL LIB Debug|Win32.ActiveCfg = OpenSSL LIB Debug|Win32
+		{95348993-E76F-1FDE-DBE0-58B902A1026A}.OpenSSL LIB Debug|Win32.Build.0 = OpenSSL LIB Debug|Win32
+		{95348993-E76F-1FDE-DBE0-58B902A1026A}.OpenSSL LIB Release|Win32.ActiveCfg = OpenSSL LIB Release|Win32
+		{95348993-E76F-1FDE-DBE0-58B902A1026A}.OpenSSL LIB Release|Win32.Build.0 = OpenSSL LIB Release|Win32
+		{95348993-E76F-1FDE-DBE0-58B902A1026A}.Release|Win32.ActiveCfg = WinCNG LIB Release|Win32
+		{95348993-E76F-1FDE-DBE0-58B902A1026A}.Release|Win32.Build.0 = WinCNG LIB Release|Win32
+		{95348993-E76F-1FDE-DBE0-58B902A1026A}.Template|Win32.ActiveCfg = WinCNG LIB Release|Win32
+		{95348993-E76F-1FDE-DBE0-58B902A1026A}.Template|Win32.Build.0 = WinCNG LIB Release|Win32
+		{95348993-E76F-1FDE-DBE0-58B902A1026A}.WinCNG DLL Debug|Win32.ActiveCfg = WinCNG DLL Debug|Win32
+		{95348993-E76F-1FDE-DBE0-58B902A1026A}.WinCNG DLL Debug|Win32.Build.0 = WinCNG DLL Debug|Win32
+		{95348993-E76F-1FDE-DBE0-58B902A1026A}.WinCNG DLL Release|Win32.ActiveCfg = WinCNG DLL Release|Win32
+		{95348993-E76F-1FDE-DBE0-58B902A1026A}.WinCNG DLL Release|Win32.Build.0 = WinCNG DLL Release|Win32
+		{95348993-E76F-1FDE-DBE0-58B902A1026A}.WinCNG LIB Debug|Win32.ActiveCfg = WinCNG LIB Debug|Win32
+		{95348993-E76F-1FDE-DBE0-58B902A1026A}.WinCNG LIB Debug|Win32.Build.0 = WinCNG LIB Debug|Win32
+		{95348993-E76F-1FDE-DBE0-58B902A1026A}.WinCNG LIB Release|Win32.ActiveCfg = WinCNG LIB Release|Win32
+		{95348993-E76F-1FDE-DBE0-58B902A1026A}.WinCNG LIB Release|Win32.Build.0 = WinCNG LIB Release|Win32
+		{E388DE70-6C23-33B2-E780-5EBA21F600E1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E388DE70-6C23-33B2-E780-5EBA21F600E1}.Debug|Win32.Build.0 = Debug|Win32
+		{E388DE70-6C23-33B2-E780-5EBA21F600E1}.OpenSSL DLL Debug|Win32.ActiveCfg = Debug|Win32
+		{E388DE70-6C23-33B2-E780-5EBA21F600E1}.OpenSSL DLL Debug|Win32.Build.0 = Debug|Win32
+		{E388DE70-6C23-33B2-E780-5EBA21F600E1}.OpenSSL DLL Release|Win32.ActiveCfg = Release|Win32
+		{E388DE70-6C23-33B2-E780-5EBA21F600E1}.OpenSSL DLL Release|Win32.Build.0 = Release|Win32
+		{E388DE70-6C23-33B2-E780-5EBA21F600E1}.OpenSSL LIB Debug|Win32.ActiveCfg = Debug|Win32
+		{E388DE70-6C23-33B2-E780-5EBA21F600E1}.OpenSSL LIB Debug|Win32.Build.0 = Debug|Win32
+		{E388DE70-6C23-33B2-E780-5EBA21F600E1}.OpenSSL LIB Release|Win32.ActiveCfg = Release|Win32
+		{E388DE70-6C23-33B2-E780-5EBA21F600E1}.OpenSSL LIB Release|Win32.Build.0 = Release|Win32
+		{E388DE70-6C23-33B2-E780-5EBA21F600E1}.Release|Win32.ActiveCfg = Release|Win32
+		{E388DE70-6C23-33B2-E780-5EBA21F600E1}.Release|Win32.Build.0 = Release|Win32
+		{E388DE70-6C23-33B2-E780-5EBA21F600E1}.Template|Win32.ActiveCfg = Template|Win32
+		{E388DE70-6C23-33B2-E780-5EBA21F600E1}.Template|Win32.Build.0 = Template|Win32
+		{E388DE70-6C23-33B2-E780-5EBA21F600E1}.WinCNG DLL Debug|Win32.ActiveCfg = Debug|Win32
+		{E388DE70-6C23-33B2-E780-5EBA21F600E1}.WinCNG DLL Debug|Win32.Build.0 = Debug|Win32
+		{E388DE70-6C23-33B2-E780-5EBA21F600E1}.WinCNG DLL Release|Win32.ActiveCfg = Release|Win32
+		{E388DE70-6C23-33B2-E780-5EBA21F600E1}.WinCNG DLL Release|Win32.Build.0 = Release|Win32
+		{E388DE70-6C23-33B2-E780-5EBA21F600E1}.WinCNG LIB Debug|Win32.ActiveCfg = Debug|Win32
+		{E388DE70-6C23-33B2-E780-5EBA21F600E1}.WinCNG LIB Debug|Win32.Build.0 = Debug|Win32
+		{E388DE70-6C23-33B2-E780-5EBA21F600E1}.WinCNG LIB Release|Win32.ActiveCfg = Release|Win32
+		{E388DE70-6C23-33B2-E780-5EBA21F600E1}.WinCNG LIB Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
